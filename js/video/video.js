@@ -123,6 +123,12 @@ jQuery(document).ready(function() {
         applyBlock("created");
     });
 
+    jQuery(".playvideo").click(function() {
+        var pid = jQuery(this).attr('id');
+        pid = pid.substring(4);
+        ova.playTarget(pid);
+    });
+
 });
 
 function applyPermissionsOnView(annotations){
