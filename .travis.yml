@@ -1,7 +1,7 @@
 #islandora_web_annotations
 
 sudo: true
-
+dist: trusty
 language: php
 
 php:
